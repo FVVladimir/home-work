@@ -1,0 +1,82 @@
+body{
+    padding-left: 20px;
+    
+}
+.btn__play{
+/*    background-color: black;*/
+    color: rgb(2, 145, 240);
+    padding: 25px 5px;
+    width: 550px;
+    margin-top: 30px;
+    transform: rotate(-2deg);
+    letter-spacing: 0.15em;
+    border: 1px solid gray;
+}
+
+.btn__play::before{
+    display: block;
+    content: "";
+    width: 60px;
+    height: 125px;
+    float: left;
+    position: absolute;
+    left: -28px;
+    top: 0;
+/*    background-color: black;*/
+    transform: skew(10deg);
+    border: 1px solid grey;
+}
+
+.btn__play::after{
+    display: block;
+    content: "";
+    width: 45px;
+    height: 125px;
+    float: left;
+    position: absolute;
+    right: -28px;
+    top: 0;
+/*    background-color: black;*/
+    transform: skew(-10deg);
+    border: 1px solid grey;
+}
+
+
+.btn__play div{
+    transform: rotate(2deg);
+}
+h2{
+    text-align: center;
+    font-size: 170%;
+/*    margin: 10px 20px;*/
+}
+fieldset{
+    width: 700px;
+    height: 200px;
+    padding-left: 75px;
+}
+.btn__free{
+    width: 95px;
+    color: rgb(2, 145, 240);
+    border: 1px solid grey;
+}
+.btn__free::before{
+    display: block;
+    content: "";
+    width: 25px;
+    height: 75px;
+    transform: skew(10deg);
+/*    float:left;*/
+    border: 1px solid grey;
+    position: absolute;
+    left: 190px;
+}
+.btn__free::after{
+    display: block;
+    content: "";   
+    width: 100px;
+    height: 15px;
+    border:1px dashed grey;
+    transform: skew(30deg) rotate(10deg);
+    transform: ;
+}

@@ -1,0 +1,116 @@
+@media screen and (max-width: 800px) and (min-width:550px) {
+    .navi {
+        height: 100px;
+        border-bottom: 2px solid grey;
+        background-color: burlywood;
+        margin-bottom: 30px;
+    }
+
+    .aside {
+        height: 500px;
+        /* border: .5px dashed gray; */
+    }
+
+    .mail-box {
+        height: 500px;
+        /* border: .5px dashed gray;     */
+    }
+
+    .li-nav {
+        display: inline-block;
+    }
+
+    li {
+        vertical-align: middle;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        list-style-type: none;
+        float: right;
+    }
+
+    img {
+        width: 50px;
+        vertical-align: middle;
+    }
+
+    .aside-menu img {
+        margin-right: 30px;
+    }
+
+    .aside-menu:hover {
+        background-color: lightsalmon;
+    }
+
+    .line:hover {
+        background-color: grey;
+    }
+
+    .aside-menu {
+        list-style-type: none;
+    }
+
+    .line {
+        clear: both;
+        border-bottom: 2px solid darkgrey;
+        margin: 4px;
+    }
+
+    .line::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .star {
+        width: 60px;
+        float: left;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .star img {
+        width: 20px;
+    }
+
+    .text {
+        width: calc(100% - 180px);
+        float: left;
+        padding: 10px;
+    }
+
+    .date {
+        width: 50px;
+        float: left;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .clip {
+        float: right;
+        width: 5%;
+        text-align: right;
+    }
+
+    .clip img {
+        width: 20px;
+    }
+
+    .name {
+        float: left;
+        width: 10%;
+        padding-top: 8px;
+        padding-right: 40px;
+    }
+
+    .message {
+        float: left;
+        width: 65%;
+        padding-top: 8px;
+    }
+
+}

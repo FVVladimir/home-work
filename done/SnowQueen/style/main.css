@@ -1,0 +1,227 @@
+/* @import url('/fonts/Burbank Big Condensed Black.ttf'); */
+@font-face{
+    font-family: Burbank;
+    src: url('/fonts/Burbank_Big_Condensed_Black.ttf');
+}
+
+main{
+    width: 100vw;
+    height: calc(100% - 75px);
+    /* background-image: radial-gradient(white, rgb(86, 185, 252)); */
+    background-image: radial-gradient(circle at 49% 50%, rgb(107, 210, 253) 31%,
+    rgb(74, 190, 249) 31%, rgb(2, 145, 240) 80%);
+    padding: 60px 20px 0 40px; 
+    color: white;
+}
+
+main::before{
+    position: absolute;
+    top: 75px;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100vw;
+    height: 100%;
+    background-image: url('/img/ice-queen.png');
+    background-repeat: no-repeat;
+    background-position: 450px -85px;   
+
+}
+
+.h1,.h2,.h3,h4{
+    font-family: Burbank;
+    /* text-align: center; */
+}
+
+.h1{
+    font-size: 220px;
+}
+
+.h2{
+    font-size: 90px;
+    margin-left: 80px;
+}
+
+.h3{
+    font-size: 75px;
+    margin-left: 90px;
+}
+h4{
+    font-size: 200%;
+    margin-bottom: 20px;    
+}
+img{
+    margin-right: 20px;
+}
+p{
+   font-family: Arial;
+   
+}
+
+aside{
+    width: 50vw;
+}
+
+.main__left{
+    float: left;
+}
+
+.main__right{
+    float: right;
+}
+
+.btn__play{
+    background-color: black;
+    color: rgb(2, 145, 240);
+    padding: 25px 5px;
+    width: 550px;
+    margin-top: 30px;
+    transform: rotate(-2deg);
+    letter-spacing: 0.15em;
+}
+
+.btn__play::before{
+    display: block;
+    content: "";
+    width: 60px;
+    height: 125px;
+    float: left;
+    position: absolute;
+    left: -28px;
+    top: 0;
+    background-color: black;
+    transform: skew(10deg);
+}
+
+.btn__play::after{
+    display: block;
+    content: "";
+    width: 45px;
+    height: 125px;
+    float: left;
+    position: absolute;
+    right: -28px;
+    top: 0;
+    background-color: black;
+    transform: skew(-10deg);
+}
+
+.btn__play div{
+    transform: rotate(2deg);
+}
+
+.text{
+    margin-top: 50px;
+    margin-left: 75px;
+    width: 500px;
+    /* font-size: 120%; */
+    font-family: burbank;
+}
+.pvvp{
+    text-align: right;
+    color:black;
+    font-family: burbank;
+}
+.pvp{
+    width: 350px;
+    height: 75px;
+    padding-left: 150px;
+    border: 1px solid white;
+    background-color: white;
+    color:lightskyblue;
+    margin-top: 35px;
+    margin-left: 125px;
+    padding-right: 20px;
+    font-size: 250%;
+    font-family: burbank;
+    text-align: right;
+}
+.free{
+    width: 150px;
+    height: 75px;
+    background-color: black;
+    color:lightskyblue;
+    font-size: 400%;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: burbank;
+    margin-top: -30px;
+    margin-left: 60px;
+
+}
+.main__right{
+    width: 650px;
+    height: 900px;
+    /* border: 1px solid white; */
+}
+.block1{
+    width: 600px;    
+    height: 200px;
+    /* border: 1px dashed white; */
+    margin: 15px 15px;
+    padding: 10px;
+    padding-right: 147px;
+    box-sizing: border-box;
+    
+}
+.block2{
+    width: 600px;    
+    height: 150px;
+    /* border: 1px dashed white; */
+    margin: 15px 15px;
+    padding: 10px;
+    padding-right: 147px;
+    box-sizing: border-box;
+}
+
+    
+.block3{
+    width: 600px;    
+    height: 100px;
+    /* border: 1px dashed white; */
+    margin: 15px 15px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 100;
+}
+.block4 img{
+    padding: 7%;
+}
+
+.btn_1,.btn_2,.btn_3{
+    /* display: inline-block; */
+    float:left;
+    width: 55px;
+    height: 55px;
+    border:1px solid transparent;
+    border-radius: 50%;
+    margin: 20px;
+    /* z-index: 100; */
+}
+.btn_center_1,.btn_center_2,.btn_center_3{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color:lightskyblue;
+    margin: 33%;
+    /* z-index: 100; */
+}
+
+.btn_1:hover,.btn_2:hover,.btn_3:hover{ 
+    border:1px solid white;
+}
+
+
+
+.block4{
+    width: 600px;    
+    height: 350px;
+    /* border: 1px dashed white; */
+    margin: 15px 15px;
+}
+.white{
+    filter: invert(100%);
+}
+
+

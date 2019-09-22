@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px){
+    
+    img{
+        width: 100%;    
+    }
+    .img{
+        margin-bottom: 20px;        
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    
+    .pimg{
+        width: 100%;
+        color: white;
+        background-color: rgb(55,81,107);
+        font-size: 75%;
+        padding: 10px;
+        text-align: right;
+        box-sizing: border-box;
+    }
+    .rside{
+        float: right;
+        border-radius: 20px;
+       
+    }
+    p{
+        width: 85vw;
+        margin-left:  50px;
+        margin-bottom: 50px;
+        font-size: 120%;
+    }
+    h2{
+        margin-left: 50px;
+    }
+}

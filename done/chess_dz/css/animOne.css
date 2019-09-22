@@ -1,0 +1,28 @@
+@keyframes towerTransform {
+    0%{
+       background-color: black; 
+    }
+
+    50%{
+       background-color: red;
+    }
+    100%{
+       background-color: blue;
+    }
+}
+
+.tower_b:hover{
+
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+
+@keyframes horse_b_jamp{
+
+   from{
+
+   }
+   to{
+      
+   }
+}

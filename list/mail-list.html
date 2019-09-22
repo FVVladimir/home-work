@@ -1,0 +1,108 @@
+<div class="emails-list">
+
+    <div class="line">
+        <div class="star">
+            <img src="./img/star1.svg"/>
+        </div>
+        <div class="text">
+            <div class="clip"><img src="./img/attach_26.png"/></div>
+            <div class="name">me,Alex</div>
+            <div class="message">Santa Monica trip - Crass acumasan lacus qiss...</div>
+        </div>
+        <div class="date">
+            12 apr
+        </div>
+    </div>
+    
+    <div class="line">
+        <div class="star">
+            <img src="./img/star2.svg"/>
+        </div>
+        <div class="text">
+            <div class="clip"><img src="./img/attach_26.png"/></div>
+            <div class="name">me,John</div>
+            <div class="message">Trip to South America - Suspendisse ut sapien non arcu... </div>
+            
+        </div>
+        <div class="date">
+            11 apr
+        </div>
+    </div>
+    
+    <div class="line">
+        <div class="star">
+            <img src="./img/star2.svg"/>
+        </div>
+        <div class="text">
+            <div class="clip"><img src="./img/attach_26.png"/></div>
+            <div class="name">me,Paul</div>
+            <div class="message">Birthday party will be 11 apr...</div>
+        </div>
+        <div class="date">
+            9 apr
+        </div>
+    </div>
+    
+</div>
+
+
+<style>
+* {
+    box-sizing: border-box;
+}
+.line {
+    clear: both;
+    background: #eee;
+    margin: 4px;
+    }
+.line::after {
+    content:'';
+    display: block;
+    clear: both;
+    }
+.star {
+    width: 60px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    }
+.star img {
+    width: 30px;
+    }
+.text {
+    width: calc(100% - 180px);
+    float: left;
+    padding: 10px;
+    }
+.date {
+    width: 120px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    }
+
+.clip {
+    float: right;
+    width: 5%;
+    text-align: right;
+    }
+.name {
+    float: left;
+    width: 10%;
+    padding-top: 8px;
+    }
+.message {
+    float: left;
+    width: 85%;
+    padding-top: 8px;
+    }
+
+@media (max-width: 800px){
+    .name {
+        width: 85%;
+        }
+    .message {
+        width: 85%;
+        }
+}    
+</style>

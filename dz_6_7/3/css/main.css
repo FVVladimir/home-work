@@ -1,0 +1,14 @@
+
+
+@import 'gred.css';
+@import 'large.css';
+@import 'middle.css';
+@import 'small.css';
+
+[class*="col-"]{    
+    box-sizing: border-box;
+    float: left;
+}
+body{
+    background-color: lightgray;
+}

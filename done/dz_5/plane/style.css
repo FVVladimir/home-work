@@ -1,0 +1,58 @@
+div{
+    width: 200px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 5%;
+    box-shadow: 0 0 10px;
+/*    display: inline-block;*/
+    float: left;
+    margin: 10px;
+    margin-top: 100px;
+    margin-left: 100px;
+    transition: all 2s;
+}
+h3,h1,h5,h4{
+    text-align: center;
+} 
+.btn{
+    color:white;
+    background-color: red;
+    width:60px;
+    height: 30px;
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 10px;
+    box-shadow: none;
+    line-height: 30px;
+}
+.enterprise hr{
+    height: 10px;
+    background-color: red;
+}
+.professional hr{
+    height: 10px;
+    background-color: orange;
+}
+.professional .btn{
+    background-color: orange;
+}
+.standard hr{
+    height: 10px;
+    background-color: navy;
+}
+.standard .btn{
+    background-color: navy;
+}
+
+.basic hr{
+    height: 10px;
+    background-color: green;
+}
+.basic .btn{
+    background-color: green;
+}
+
+div:hover{
+  transform:scale(1.4);
+  transform-origin: 71% 65%;  
+}

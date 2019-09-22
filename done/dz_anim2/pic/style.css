@@ -1,0 +1,70 @@
+ @keyframes visibl{
+    
+     from {
+        margin-top:270px;
+    }
+     
+    to {
+        margin-top:150px;
+     }
+    } 
+@keyframes visiblLong{
+    
+    from{
+        margin-top: 270px;
+    }
+    to{
+        margin-top: 100px;
+    }
+}
+ 
+body{
+    width:1000px;
+    height: 550px;
+    border:1px solid grey;
+    margin-left: 50;
+}
+main{
+    width: 800px;
+    height: 250px;
+    border: 1px solid grey;
+    margin-top: 200px;
+    margin-left: 100px;
+    overflow: hidden;
+}
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+}
+
+img{
+    width:50px;
+    height: 50px;
+    border: 1px solid grey;
+    float: left;
+    margin-left: 100px;
+    margin-top: 500px;
+
+}
+
+#pic1{
+    animation: visibl 3s forwards;
+    transform: rotate(-15deg);
+}
+#pic2{
+    animation: visiblLong 3s 2s forwards;
+    transform: rotate(-10deg);    
+}
+#pic3{
+    animation: visiblLong 3s 4s forwards;
+    transform: rotate(10deg);
+    }
+#pic4{
+    animation: visibl 3s 6s forwards;
+    transform: rotate(15deg);
+}
+#pic5{
+    animation: visibl 3s 8s forwards;
+    transform: rotate(90deg);
+}

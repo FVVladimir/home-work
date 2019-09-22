@@ -1,0 +1,22 @@
+@keyframes goRight{
+    
+   from {
+        margin-left: o;
+    }
+    to{
+        margin-left: 750px;
+    }
+    
+}
+.board{
+    width: 1000px;
+    height: 252px;
+    border:1px solid orange;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 1px solid orange;
+    background-color: orange;
+    animation: goRight 5s infinite;
+}

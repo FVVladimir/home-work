@@ -1,0 +1,36 @@
+@media screen and (min-width: 600px) and (max-width: 800px){
+    
+    img{
+        width: 300px;    
+    }
+    .img{
+        margin-bottom: 20px;
+        border-radius: 15px;
+        overflow: hidden;
+        display: inline-block;
+        margin: 15px 15px auto;
+    }
+    
+    .pimg{
+        width: 300px;
+        color: white;
+        background-color: rgb(55,81,107);
+        font-size: 75%;
+        padding: 10px;
+        text-align: right;
+        box-sizing: border-box;
+    }
+    .rside{        
+        padding-left: 50px;    
+
+    }
+    p{
+        width: 85vw;
+        margin-left:  50px;
+        margin-bottom: 50px;
+        font-size: 120%;        
+    }
+    h2{
+        margin-left: 50px;
+    }
+}

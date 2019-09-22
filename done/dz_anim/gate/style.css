@@ -1,0 +1,46 @@
+article {
+    width: 500px;
+    height: 200px;
+    border: 1px solid grey;
+    display: table;
+    perspective: 450px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.lside {
+    width: 250px;
+    height: 200px;
+    border: 1px solid grey;
+    float: left;
+    background-color: aqua;
+    transform-origin: left;
+    transition: 3s;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.rside {
+    width: 250px;
+    height: 200px;
+    margin-left: 250px;
+    border: 1px solid grey;
+    background-color: aqua;
+    transform-origin: right;
+    transition: 3s;
+    position: absolute;
+    top: 0;
+    left: 250;
+}
+
+article:hover .lside {
+    transform: rotateY(65deg);
+}
+
+article:hover .rside {
+    transform: rotateY(-65deg);
+}

@@ -1,0 +1,64 @@
+@keyframes around_min {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes around_hour {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+div {
+    position: absolute;
+}
+
+.cif {
+    width: 250px;
+    height: 250px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: 300px;
+}
+
+.center {
+    width: 10px;
+    height: 10px;
+    border: 1px solid gray;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 125px;
+    margin-left: 125px;
+}
+
+.minute {
+    width: 125px;
+    height: 3px;
+    margin-top: 125px;
+    border: 1px solid grey;
+    background-color: gray;
+    transform-origin: right;
+    animation: around_min 60s infinite;
+
+}
+
+.hour {
+    width: 75px;
+    height: 3px;
+    margin-top: 125px;
+    margin-left: 50px;
+    border: 1px solid grey;
+    background-color: gray;
+    transform-origin: right;
+    animation: around_hour 180s infinite;
+}

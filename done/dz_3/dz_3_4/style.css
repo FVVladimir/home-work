@@ -1,0 +1,57 @@
+section {
+    width: 1000px;
+    height: 250px;
+    background-color: #1d1d3b;
+}
+
+ul {
+    width: 30%;
+    display: inline-block;
+    color: lightgray;
+    list-style-type: none;
+    text-align: center;
+}
+
+hr {
+    width: 850px;
+    text-align: center;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+p {
+    display: inline-block;
+    width: 70px;
+} 
+
+.copy {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.fb{
+    width: 50px;
+    height: 50px;
+    background-image: url(icon_4/fb_gray.png);
+}
+.ins{
+    width: 50px;
+    height: 50px;
+    background-image: url(icon_4/insta_gray.png);
+}
+.you{
+    width: 50px;
+    height: 50px;
+    background-image: url(icon_4/youtube_gray.png);
+}
+.fb:hover{
+    background-image: url(icon_4/fb.png);
+}
+.ins:hover{
+    background-image: url(icon_4/insta.png);
+}
+.you:hover{
+    background-image: url(icon_4/youtube.png);
+}

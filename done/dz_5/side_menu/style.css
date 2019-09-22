@@ -1,0 +1,54 @@
+body {
+    padding-top: 0;
+}
+
+ul {
+    width: 60px;
+    height: 1100px;
+    margin-top: 0;
+    background-color: lightslategray;
+    padding-left: 0px;
+    position: fixed;
+}
+
+li {
+    width: 250px;
+    height: 75px;
+    color: white;
+    list-style-type: none;
+}
+
+div {
+    width: 800px;
+    height: 350px;
+    border: 1px dashed grey;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 10px;
+    overflow: auto;
+}
+
+p {
+    Text-transform: uppercase;
+}
+
+img {
+    width: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.menu{
+    padding-left: 10px;
+    padding-top: 20px;   
+
+}
+
+ul:hover {
+    width: 250px;
+}
+
+li:hover {
+    background-color: gray;
+}
