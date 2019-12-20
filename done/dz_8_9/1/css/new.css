@@ -1,0 +1,46 @@
+body{
+    background-color: #add8e6;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+[class^="col"]{
+   
+    width: 30vw;    
+}
+.el{
+    margin-bottom: 20px;    
+}
+
+.text{
+    background-color: white;
+}
+
+.pic1{
+    height: 150px;
+}
+.pic2{
+    height: 220px;
+}
+.pic3{
+    height: 100px;
+}
+.pic4{
+    height: 100px;
+}
+.pic5{
+    height: 230px;
+}
+.pic6{
+    height: 150px;
+}
+.pic7{
+    height: 100px;
+}
+.pic8{
+    height: 350px;
+}
+.pic9{
+    height: 150px;
+}

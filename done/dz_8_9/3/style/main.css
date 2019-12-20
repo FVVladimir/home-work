@@ -1,0 +1,135 @@
+.body {
+    padding: 0;
+}
+
+.navi {
+    background-color: #008b8b;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 70px;
+    /*
+    position: fixed;
+    top:0;
+    left:0;
+*/
+}
+
+.main {
+    background-color: #019e9e;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    overflow: hidden;
+}
+
+.win1 {
+    background-color: #dcdcdc;
+    width: 17vw;
+    height: 500px;
+}
+
+.win2 {
+    background-color: #dcdcdc;
+    width: 17vw;
+    height: 500px;
+}
+
+.win3 {
+    background-color: #dcdcdc;
+    width: 18vw;
+    height: 500px;
+    overflow: scroll;
+}
+
+.win4 {
+    background-color: #dcdcdc;
+    width: 17vw;
+    overflow: scroll;
+    height: 500px;
+}
+
+.win5 {
+    background-color: #dcdcdc;
+    width: 17vw;
+    overflow: scroll;
+    height: 500px;
+}
+
+[class*="win"] {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 500px;
+    margin: 10px auto;
+}
+
+[class*="part"] {
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.text {
+    width: 210px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.pic {
+    width: 210px;
+    height: 40px;
+    margin: 3px auto;
+}
+
+[class^="pik_el"] {
+    width: 20px;
+    height: 20px;
+    /*    border: .5px dashed gray;*/
+    display: inline-block;
+    background-size: contain;
+    margin: 2px auto;
+    margin-left: 2px;
+}
+
+.win2_part .img {
+    background-image: url(/img/avatar_4.png);
+}
+
+.pik_el1 {
+    background-image: url(/img/justify_26.png);
+}
+
+.pik_el2 {
+    background-image: url(/img/attach_26.png);
+}
+
+.pik_el3 {
+    background-image: url(/img/checkbox_26.png);
+}
+
+.pik_el4 {
+    background-image: url(img/comments_26.png);
+}
+
+.img {
+    width: 40px;
+    height: 35px;
+    /*  border:.5px dashed gray;*/
+    display: inline-block;
+    float: right;
+    margin: 2px auto;
+    margin-right: 5px;
+    padding: 0;
+    background-image: url(/img/avatar_3.png);
+    background-size: 40px;
+}
+
+img {
+    width: 40px;
+    margin: 0;
+}
