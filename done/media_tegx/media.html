@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>media</title>
+    <style>
+        section{
+
+            width:80%;
+            height: 20%;
+            border: 1px dashed gray;
+            padding: 10px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>
+        Тег &lt;picture&gt;дает веб-разработчикам больше гибкости в определении ресурсов изображения.<br>
+        Элемент &lt;picture&gt; содержит два разных тега : один или несколько тегов &lt;source&gt; и один тег &lt;img&gt;.<br>
+        Элемент &lt;picture&gt; работает аналогично элементам &lt;video&gt; и &lt;audio&gt;. Вы устанавливаете разные источники,<br>
+        и первым источником, который соответствует предпочтениям, является тот, который используется.
+        </p>
+    </section>
+         
+    <section>
+        <p>
+            Тег &lt;optgroup&gt; используеться для формирования опций внутри элемента &lt;select&gt;<br>
+            
+            
+            <select>
+                <optgroup label="Группа 1">
+                  <option>Опция 1.1</option>
+                </optgroup> 
+                <optgroup label="Группа 2">
+                  <option>Опция 2.1</option>
+                  <option>Опция 2.2</option>
+                </optgroup>
+                <optgroup label="Группа 3" disabled>
+                  <option>Опция 3.1</option>
+                  <option>Опция 3.2</option>
+                  <option>Опция 3.3</option>
+                </optgroup>
+              </select>
+        </p>
+
+    </section>
+         
+    <section>
+        <p>
+          Тег &lt;video&gt; используется для внедрения на веб-страницу видео контента.<br>
+          Для указания источника используется атрибут src или же несколько src обьедененных<br>
+          в элемент &lt;source&gt;. В таком случае браузер сам определит лучший источник.<br>
+          <audio src="name.ogg" controls></audio><br>
+          Атрибуты <ul>
+              <li>poster указывает на катртинку которая будет демонстрироваться до воспроизведения видео</li>
+              <li>src указывает на источник видео</li>
+              <li>width указывает ширину поля воспроизведения</li>
+              <li>height указывает высоту поля воспроизведения</li>
+              <li>loop зацикливает демонстрацию видео</li>
+              <li>controls получает в браузере вид плеера</li>
+          </ul>
+
+        </p>
+    </section>
+          
+    <section>
+        <p>
+           Тег &lt;audio&gt; используеться для внедрения звукового контента в веб-страници.
+           Имеет следующий вид <br> <audio src="name.ogg" controls></audio><br>
+           Атрибут controls позволяет получать в браузере вид аудиоплеера.<br>
+           Атрибут autoplay позволяет включать автоматическое воспроизведение при загрузке страници.<br>
+           Атрибут loop позволяет делать воспроизведение циклическим.<br>
+           Атрибут mute позволяет убирать звук.
+        </p>
+    </section>
+    
+    <section>
+        <p>
+           Какие возможности открывает использование тега &lt;iframe&gt; &lt;frame&gt;<br>
+           Тег &lt;iframe&gt; создает плавающий фрейм, который находится внутри обычного документа,<br>
+             он позволяет загружать в область заданных размеров любые другие независимые документы.<br>
+            Тег &lt;iframe&gt; является контейнером, содержание которого игнорируется браузерами,<br>
+            не поддерживающими данный тег. Для таких браузеров можно указать альтернативный текст,<br>
+            который увидят пользователи. Он должен располагаться между элементами &lt;iframe&gt; и &lt;iframe&gt;.
+           <iframe src="banner.html" width="468" height="60" align="left">
+            Ваш браузер не поддерживает плавающие фреймы!
+         </iframe>
+        </p>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+ 
+ }
+ 
+ .main{
+     height: 100%;
+     display: grid;
+     grid-template-columns: 10% 800px 1fr ;
+     grid-template-rows: 200px calc(100vh - 200px);
+     grid-template-areas: 
+     "menu main-content right-menu"
+     "menu main-content right-content"    
+     ;
+ }
+ 
+ .el{
+     border:.5px solid gray;
+     text-align: center;
+ }
+ .menu{
+     grid-area: menu;
+     background-color: #ead1dc;
+ }
+ .right-menu{
+     grid-area: right-menu;
+     background-color: #cfe2f3;
+ }
+ .main-content{
+     grid-area: main-content;
+     background-color: #fff2cc;
+ }
+ .right-content{
+     grid-area: right-content;
+     background-color: #fce5cd;
+ }
